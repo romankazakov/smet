@@ -1,0 +1,18 @@
+{
+    "name": "macbook/smet",
+    "authors": [
+        {
+            "name": "Roma Kazakov",
+            "email": "romanya@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7",
+        "joshtronic/php-loremipsum": "^1.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "smet\\": "src/"
+        }
+    }
+}
